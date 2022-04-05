@@ -127,7 +127,7 @@ p {
 #hebergements {
   background-color: var(--gray);
   height: 800px;
-  width: 1000px;
+  width: 63%;
   margin: 20px;
   border-radius: 30px;
   float: left;
@@ -182,7 +182,7 @@ padding:10px;
 .aside {
   background-color: var(--gray);
   height: 800px;
-  width: 500px;
+  width: 30%;
   margin: 20px;
   border-radius: 30px;
   float: right;
@@ -231,8 +231,9 @@ aside article span {
 }
 .activites {
   margin:20px;
-  width:1500px;
+  width:95%;
   height:420px;
+  clear:both;
 }
 .activites h3 {
   margin:20px;
@@ -240,7 +241,6 @@ aside article span {
 .activites-container {
   display:flex;
 justify-content:space-between;
-  margin:20px;
   padding:10px;
 }
 .activites-container img {
@@ -249,39 +249,54 @@ justify-content:space-between;
 }
 .block-1, .block-2 {
   display:flex;
+  justify-content: space-around;
 }
 
 .double-image {
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  padding:10px;
-  margin:10px;
+  padding:5px;
   align-items:center;
 }
-
+.double-image2 {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding:5px;
+  align-items:center;
+}
 .big-image img {
-  height:500px;
+  height:450px;
 }
 
 .double-image2 img {
   width:350px;
-  padding:10px;
-}
-.double-image2  {
-  margin-left:8px;
+  padding:5px;
 }
 
 .activites article {
   border-radius:30px;
  box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
 }
-
+.activites article:hover {
+  transition: 0.1s ease-in-out;
+  transform: scale(1.01);
+  box-shadow: 0px 0px 35px #2727278e;
+  background-color: #DEEBFF;
+  border-radius:30px;
+}
 footer {
   display:flex;
-  margin:20px;
+  margin-top:10rem;
   padding:20px;
   position:relative;
+  width:100%;
+  background-color: var(--gray);
+ 
+  align-items:center;
+  justify-content:space-around;
+
 }
 
 footer ul li {
