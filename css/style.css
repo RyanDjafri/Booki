@@ -240,7 +240,7 @@ aside article span {
 }
 .activites-container {
   display:flex;
-justify-content:space-between;
+justify-content:space-evenly;
   padding:10px;
 }
 .activites-container img {
@@ -293,7 +293,7 @@ footer {
   position:relative;
   width:100%;
   background-color: var(--gray);
- 
+  height:25vh;
   align-items:center;
   justify-content:space-around;
 
