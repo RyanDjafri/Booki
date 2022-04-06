@@ -1,3 +1,5 @@
+ /* Break points : 992px et 768px  */
+/* 1 DESKTOP 2 TABLETTE 3 MOBILE */
 @media screen and (min-width:992px) and (max-width:1160px){
     #hebergements {
         width:100%;
@@ -27,5 +29,45 @@
     }
     footer {
         margin-top:50rem;
+    }
+}
+
+@media screen and (max-width:900px){
+    #hebergements img {
+        width:90%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .filtres {
+        display:flex;
+        flex-direction:column;
+    }
+
+}
+
+@media screen and (max-width:668px) {
+    header {
+        display:flex;
+        flex-direction:column;
+    }
+    nav {
+        display:flex;
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .search {
+        margin-left:0;
+        padding:0;
+    }
+    
+    #herbergements {
+        width:100%;
+    }
+    .aside {
+        width:100%;
     }
 }

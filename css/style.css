@@ -73,6 +73,12 @@ p {
   border-bottom-right-radius: 20px;
   border-color: var(--blue1);
 }
+.search form button i {
+  opacity:0;
+}
+.search form button:hover {
+  transform:scale(1.1)
+}
 
 .filtres {
   padding:10px;
