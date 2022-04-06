@@ -1,8 +1,4 @@
-
-
-
- /* responsive tablette */
-@media screen and (max-width:992px){
+@media screen and (min-width:992px) and (max-width:1160px){
     #hebergements {
         width:100%;
     }
@@ -18,4 +14,18 @@
     }
 }
 
-/* responsive mobile */
+@media screen and (max-width:992px){
+    #hebergements {
+        width:100%;
+    }
+    .aside {
+        width:100%;
+    }
+    .activites-container {
+        
+        flex-direction:column;
+    }
+    footer {
+        margin-top:50rem;
+    }
+}
