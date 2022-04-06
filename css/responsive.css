@@ -1,5 +1,18 @@
  /* Break points : 992px et 768px  */
 /* 1 DESKTOP 2 TABLETTE 3 MOBILE */
+@media (max-width: 1500px) {
+    .activities-list {
+      grid-template-rows: repeat(auto-fit, 15rem);
+    }
+  
+    .activities-list > * {
+      grid-column: span 1;
+      grid-row: span 1;
+      height: 15rem;
+    }
+  }
+
+
 @media screen and (min-width:992px) and (max-width:1160px){
     #hebergements {
         width:100%;
