@@ -1,0 +1,21 @@
+
+
+
+ /* responsive tablette */
+@media screen and (max-width:992px){
+    #hebergements {
+        width:100%;
+    }
+    .aside {
+        width:100%;
+    }
+    .activites-container {
+        
+        flex-direction:column;
+    }
+    footer {
+        margin-top:50rem;
+    }
+}
+
+/* responsive mobile */
