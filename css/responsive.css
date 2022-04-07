@@ -11,7 +11,21 @@
       height: 15rem;
     }
   }
-
+  @media (max-width: 1200px) {
+      #hebergements img{
+        width:80%;
+       
+      }
+    .search-form .search-text {
+      display: none;
+    }
+  
+    .fas.fa-search {
+      display: inline;
+      background-color: inherit;
+    }
+  }
+  
 
 @media screen and (min-width:992px) and (max-width:1160px){
     #hebergements {
@@ -25,7 +39,7 @@
         flex-direction:column;
     }
     footer {
-        margin-top:50rem;
+        margin-top:10rem;
     }
 }
 
@@ -41,7 +55,7 @@
         flex-direction:column;
     }
     footer {
-        margin-top:50rem;
+        margin-top:10rem;
     }
 }
 
@@ -72,15 +86,43 @@
 }
 
 @media screen and (max-width:375px) {
-    .search {
-        margin-left:0;
-        padding:0;
+.form {
+    margin-left:20px;
+}
+    .search form .button-text {
+        display:none;
     }
-    
-    #herbergements {
+    #hebergements {
+        margin-bottom:30px;
         width:100%;
+        margin:0;
+        padding:0;
+        position:relative;
+    }
+    .cards {
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items:center;
+       
     }
     .aside {
         width:100%;
+        clear:both;
+       
     }
+footer {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:20px;
+    padding:10px;
+    align-items:center;
+    width:100%;
+}
+
+footer .block-1, .block-2, .block-3 ul li {
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
 }
