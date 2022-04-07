@@ -141,6 +141,7 @@ p {
   float:left;
   margin:20px;
   position:absolute;
+
 }
 .apartments-list {
   display: flex;
@@ -219,11 +220,12 @@ p {
 
 .aside {
   background-color: var(--gray);
-  height: 700px;
+  height: 650px;
   width: 30%;
   margin: 20px;
   border-radius: 30px;
   float: right;
+  position:relative;
 }
 
 .populaire {

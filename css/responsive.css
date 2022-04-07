@@ -11,6 +11,17 @@
       height: 15rem;
     }
   }
+
+  @media screen and (max-width:1245px){
+      #hebergements {
+          position:relative;
+         
+      }
+    
+      .aside {
+          width:100%;
+      }
+  }
   @media (max-width: 1200px) {
       #hebergements img{
         width:80%;
@@ -23,6 +34,9 @@
     .fas.fa-search {
       display: inline;
       background-color: inherit;
+    }
+    .aside {
+        position:relative;
     }
   }
   
@@ -82,6 +96,9 @@
         display:flex;
         justify-content: space-around;
     }
+    .aside {
+        position:relative;
+    }
     
 }
 
@@ -93,7 +110,8 @@
         display:none;
     }
     #hebergements {
-     float:left;
+     position:relative;
+     width:100%;
     }
     .cards {
         flex-direction:column;
@@ -103,7 +121,7 @@
     }
     .aside {
         width:100%;
-        clear:both;
+        position:relative;
        
        
     }
