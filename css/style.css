@@ -137,66 +137,89 @@ p {
   border:2px solid var(--gray);
   border-radius:100px;
 }
-
 #hebergements {
-  background-color: var(--gray);
-  height: 800px;
-  width: 63%;
-  margin: 20px;
-  border-radius: 30px;
-  float: left;
-}
-.cards {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.card {
-  background: white;
-  border-radius: 30px;
-margin:10px;
-padding:10px;
-  justify-content: center;
-  align-items: center;
-}
-
-.card img {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-
-}
-
-
-.stars {
-  padding:10px;
+  float:left;
   margin:20px;
+  position:absolute;
+}
+.apartments-list {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  
 }
 
-#hebergements h3 {
-  font-weight: bold;
-  font-size: 1.2em;
-  padding: 10px;
-  margin: 20px;
-}
-#hebergements p {
-  font-weight: bold;
-  font-size: 1.2em;
-  padding: 10px;
-  margin: 20px;
+.apartments-list > div {
+  background-color: var(--gray);
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
-#hebergements article:hover {
-  transition: 0.1s ease-in-out;
-  transform: scale(1.01);
-  box-shadow: 0px 0px 35px #2727278e;
-  background-color: #DEEBFF;
-  border-radius:30px;
+.apartments-list .city {
+  flex-basis: 66%;
+}
+
+.apartments-list .city a {
+  font-weight: bold;
+}
+
+.apartments-list .popular {
+  flex-basis: 33%;
+}
+
+/* LISTAPARTMENTS CITY */
+.city-apartments-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+
+.apartment-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 16px #0000002e;
+  flex-grow: 1;
+  transition: all 0.2s;
+  flex-basis: 30%;
+  min-width: 15rem;
+}
+
+.apartment-card:hover {
+  transform: scale(1.02);
+  box-shadow: 3px 5px 11px -5px #000000;
+}
+
+/* APARTMENT IMAGE */
+.apartment-card-image img {
+  border-radius: 1rem 1rem 0 0;
+  height: 9rem;
+  width:100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.apartment-card p,
+.apartment-card h3,
+.popular-description p,
+.popular-description h3 {
+  margin: 0.2rem;
+}
+
+.blue {
+  color: var(--blue1);
+}
+
+.grey {
+  color: var(--gray);
 }
 
 .aside {
   background-color: var(--gray);
-  height: 800px;
+  height: 700px;
   width: 30%;
   margin: 20px;
   border-radius: 30px;
@@ -226,11 +249,8 @@ aside article img {
 }
 
 aside article:hover {
-  transition: 0.1s ease-in-out;
-  transform: scale(1.01);
-  box-shadow: 0px 0px 35px #2727278e;
-  background-color: #DEEBFF;
-  border-radius:30px;
+  transform: scale(1.02);
+  box-shadow: 3px 5px 11px -5px #000000;
 }
 .stars .blue {
   color:var(--blue1)
@@ -243,6 +263,10 @@ aside article h3 {
 }
 aside article span {
   margin-left:15px;
+}
+
+#activites {
+  clear:both;
 }
 .activites-title {
   margin:20px;

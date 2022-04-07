@@ -93,11 +93,7 @@
         display:none;
     }
     #hebergements {
-        margin-bottom:30px;
-        width:100%;
-        margin:0;
-        padding:0;
-        position:relative;
+     float:left;
     }
     .cards {
         flex-direction:column;
@@ -109,6 +105,10 @@
         width:100%;
         clear:both;
        
+       
+    }
+    .activites {
+        margin:20px;
     }
 footer {
     display:flex;
