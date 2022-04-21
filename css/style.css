@@ -164,7 +164,7 @@ p {
   font-weight: bold;
 }
 
-.apartments-list .popular {
+.apartments-list {
   flex-basis: 33%;
 }
 
@@ -204,9 +204,8 @@ p {
 }
 
 .apartment-card p,
-.apartment-card h3,
-.popular-description p,
-.popular-description h3 {
+.apartment-card h3
+ {
   margin: 0.2rem;
 }
 
