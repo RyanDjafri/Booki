@@ -168,7 +168,7 @@ p {
   flex-basis: 33%;
 }
 
-/* LISTAPARTMENTS CITY */
+
 .city-apartments-list {
   display: flex;
   flex-wrap: wrap;
@@ -194,7 +194,9 @@ p {
   box-shadow: 3px 5px 11px -5px #000000;
 }
 
-/* APARTMENT IMAGE */
+#amina {
+  background-position:bottom;
+}
 .apartment-card-image img {
   border-radius: 1rem 1rem 0 0;
   height: 9rem;
