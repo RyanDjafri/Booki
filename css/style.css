@@ -236,7 +236,7 @@ p {
   padding:20px;
   margin:10px;
 }
-aside article {
+.aside article {
   display:flex;
   padding: 10px;
   margin:10px;
@@ -244,14 +244,14 @@ aside article {
   border-radius:20px;
   justify-content: space-around;
 }
-aside article img {
+.aside article img {
   width:190px;
   height:150px;
   border-top-left-radius:20px;
   border-bottom-left-radius:20px;
 }
 
-aside article:hover {
+.aside article:hover {
   transform: scale(1.02);
   box-shadow: 3px 5px 11px -5px #000000;
 }
@@ -261,10 +261,10 @@ aside article:hover {
 .stars .gray {
   color:var(--gray)
 }
-aside article h3 {
+.aside article h3 {
   margin-left:15px;
 }
-aside article span {
+.aside article span {
   margin-left:15px;
 }
 
