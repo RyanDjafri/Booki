@@ -34,6 +34,8 @@
     }
     .aside {
         position:relative;
+        width:100%;
+        margin-left:15px;
     }
     
 }
@@ -70,6 +72,9 @@
 
 
 @media (max-width:375px) {
+    main {
+        background-position:bottom;
+    }
 .form {
     margin-left:20px;
 }
@@ -119,4 +124,15 @@ footer .block-1, .block-2, .block-3 ul li {
       padding: 0;
     }
     
+  }
+  @media (max-width:1100px){
+      .filtres {
+          margin:0;
+          width:100%;
+      }
+  }
+  @media (max-width:1050px){
+      .filtres {
+          flex-direction:column;
+      }
   }
