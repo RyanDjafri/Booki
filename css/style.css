@@ -143,6 +143,9 @@ p {
   position:absolute;
 
 }
+#hebergements h3 {
+  margin-bottom:10px;
+}
 .apartments-list {
   display: flex;
   gap: 1rem;
